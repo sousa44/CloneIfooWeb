@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifood landing page</title>
+
+    <!-- bootsrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- estilo CSS-->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header class="cabecalho m-auto fixed-top"> <!-- inicio cabecalho-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-4 ">
+            <a class="navbar-brand" href="#"><img src="ifood_logo_icon_248035.png" width="50px"
+                    alt="iconeIfood"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <span class="corVermelha"> <img src="localizacao.gif"
+                                    class="iconeLocalizacao" width="30px" alt="localizacaoGif"> Informe sua cidade para
+                            </span> ver <br> condições exclusivas <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cadatrar mercado</a>
+                    </li>
+                    <li class="nav-item dropdown"> <!-- inicio menu 1-->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Como funciona
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <div class="dropdown-item"> <!-- item menu 1-->
+                                <h5 class="tituloMenu"> <img src="ifood_logo_icon_248035.png" class="mr-2"
+                                        width="20px" alt="iconeIfood">Sobre o Ifood</h5>
+
+                                <p>Conheça melhor o ifood e como Funciona</p>
+
+
+
+                            </div> <!-- fim item menu 1-->
+
+                            <div class="dropdown-item"> <!-- item menu 2-->
+                                <h5 class="tituloMenu"> <img src="dolar.png" class="mr-2" width="20px"
+                                        alt="iconePagamento">Pagamento </h5>
+                                <p>Como são feitos os repasses do Ifood para a sua conta.</p>
+
+                            </div> <!--  fim item menu 2-->
+
+                            <div class="dropdown-item"> <!-- item menu 3-->
+                                <h5 class="tituloMenu"> <img src="capacete-de-corrida.png" class="mr-2"
+                                        width="20px" alt="iconeCapacete">Entregas </h5>
+                                <p>Veja os planos de entrega do iFood para você ir mais longe.</p>
+
+                            </div> <!--  fim item menu 3-->
+
+
+                            <div class="dropdown-item"> <!-- item menu 4-->
+                                <h5 class="tituloMenu"> <img src="prancheta.png" class="mr-2" width="20px"
+                                        alt="iconePrancheta"> Planos </h5>
+                                <p>Entenda a melhor opção para o seu negócio e compare os benefícios .</p>
+
+                            </div> <!--  fim item menu 4-->
+
+
+                            <div class="dropdown-item"> <!-- item menu 5-->
+                                <h5 class="tituloMenu"> <img src="ferramenta-de-reparacao.png" class="mr-2"
+                                        width="20px" alt="iconeFerramenta"> Ferramentas </h5>
+                                <p>Conheça as nossas ferramentas de gestão .</p>
+
+                            </div> <!--  fim item menu 5-->
+
+
+
+                        </div>
+                    </li> <!-- fim  menu 1-->
+
+                    <li class="nav-item dropdown"> <!-- inicio menu ajuda-->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ajuda
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <div class="dropdown-item"> <!-- item menu 1-->
+                                <h5 class="tituloMenu"> <img src="chamada-de-ajuda.png" class="mr-2" width="20px"
+                                        alt="iconeIfood">Central de Ajuda</h5>
+
+                                <p>Conheça melhor o ifood e como Funciona</p>
+
+
+
+                            </div> <!-- fim item menu 1-->
+
+                            <div class="dropdown-item"> <!-- item menu 2-->
+                                <h5 class="tituloMenu"> <img src="ajuda.png" class="mr-2" width="20px"
+                                        alt="iconePagamento">Perguntas frequentes </h5>
+                                <p>As respostas para as suas principais dúvidas</p>
+
+                            </div> <!--  fim item menu 2-->
+
+
+
+
+
+
+
+
+                        </div>
+                    </li> <!-- fim menu ajuda-->
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 btn btn-outline-danger" type="submit" value="Entrar no portal">
+                    <button class="btn btn-danger my-2 my-sm-0" type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </nav>
+
+
+
+
+    </header>
+
+
+    <section id="conteudos" class="pb-5"> <!-- incio conteudos-->
+
+        <div class="container "> <!-- inicio container-->
+
+            <div class="row">
+
+                <div class="col-md-6  " id="logoChef">
+                    <img src="chapeu-de-chef.png" class="mt-5 " width="200px" alt="chapeuDeChef">
+
+                    <p class="mt-5 text-light font-weight-bold">Patrocinador oficial do <img
+                            src="masterchef-logo-black-and-white.png" width="80px" alt="logoMaterChef"> </p>
+
+                </div>
+
+
+                <div class="col-md-6 bg-light " id="cadastro"> <!--- inicio cadastro -->
+
+                    <div class="p-5">
+                        <h5>Cadastre seu restaurante</h5>
+
+                        <p>Entre e ganhe 1 mês de mensalidade grátis! </p>
+
+                        <p class="font-weight-bold text-dark">E-mail*</p>
+
+
+                        <input type="text" class="form-control font-weight-bold" placeholder="email@email.com.br">
+
+                        <button class="btn btn-danger font-weight-bold w-100 mt-4 p-3"> Cadastrar agora</button>
+
+                        <p class="mt-2">Ao continuar, você concorda em recber comunicações do Ifood. Confira nossa <a
+                                href="#" class="declaracaoPrivacidade">Declaração de privacidade </a> </p>
+
+
+
+
+
+                    </div>
+
+                </div> <!-- fim cadastro-->
+
+
+            </div>
+
+        </div> <!-- fim container-->
+
+
+
+
+
+
+
+    </section> <!-- fim conteudos-->
+
+
+
+
+
+
+    <section id="sugestoes"> <!-- inicio  sugestoes-->
+
+        <div class="container"> <!-- inicio container-->
+
+            <div class="row mt-5">
+
+
+
+                <div class="col-md-6 ">
+
+                    <img src="correio.png" width="300px" alt="correioIcone">
+
+
+                </div>
+
+
+                <div class="col-md-6">
+                    <h5 class="font-weight-bold tituloConteudos">Seu negócio pede visibilidade para vender mais </h5>
+
+                    <p class="text-secondary">
+                        Com o ifood, você conecta sua loja a milhões de novos clientes <br>
+                        expande sua área de entrega e vende muito mais.<br> <br>
+                        Utilize nossas ferramentas de market para ter mais visibilidade e chegar a milhões de pessoas
+                        que amam pedir comida pelo app.
+
+                    </p>
+
+                    <button class="btn btn-danger p-3 font-weight-bold">Quero vender mais </button>
+                </div>
+
+            </div>
+
+
+
+            <div class="row mt-5" id="parcerias"> <!-- inicio parceria -->
+
+                <div class="col-md-4">
+                    <span class="numeracao">300</span> <sup class="mais">+</sup>
+                    <p class="m-0">mil lojas parceiras</p>
+
+                </div>
+
+
+
+                <div class="col-md-4">
+                    <span class="numeracao numero2">110</span> <sup class="mais">+</sup>
+                    <p class="m-0">milhões de pedidos/mês </p>
+
+                </div>
+
+
+
+
+                <div class="col-md-4">
+                    <span class="numeracao numero3">360</span> <sup class="mais">+</sup>
+                    <p class="m-0">mil entregadores ativos </p>
+
+                </div>
+
+            </div> <!-- fim parceria -->
+
+
+
+
+
+
+        </div> <!-- fim container-->
+
+
+
+
+    </section> <!-- fim sugestoes-->
+
+
+
+    <section class="mt-5"> <!-- inicio vantages  -->
+
+        <div class="container"> <!-- inicio container-->
+
+            <h4 class="font-weight-bold text-center p-3 tituloParceria text-secondary"> Vantagens de ser uma loja
+                parceira </h4>
+
+            <div class="d-flex  justify-content-between" id="vantagens">
+
+                <div class="item w-25 mr-3">
+
+                    <img src="entrega-rapida.png" width="30px" alt="iconeEntregaRapida">
+
+                    <h5 class="font-weight-bold">Entrega Fácil</h5>
+
+                    <p class="text-secondary">
+
+                        Entregue com eficiência tanto seus pedidos que chegam no iFood,
+                        quanto os que chegam por WhatsApp, Redes Sociais e Telefone.
+
+                    </p>
+
+                </div>
+
+
+                <div class="item w-25  mr-3">
+
+                    <img src="gestao.png" width="30px" alt="iconeEntregaRapida">
+
+                    <h5 class="font-weight-bold">Gestão simples e fácil </h5>
+
+                    <p class="text-secondary">
+
+                        você não precisa de ponto de venda nem computador.No iFood, é
+                        possivel gerenciar seu negócio de qualquer lugar pelo celular.
+
+
+                    </p>
+
+
+
+                </div>
+
+
+                <div class="item w-25  mr-3">
+
+                    <img src="consultoria.png" width="30px" alt="iconeEntregaRapida">
+
+                    <h5 class="font-weight-bold">Consultoria gratuita </h5>
+
+                    <p class="text-secondary">
+
+                        Acesso a consultoria gratuita com especialistas em performance para ajudar você a crescer
+                        seu negócio por 30 dias.
+
+
+                    </p>
+
+                </div>
+
+                <div class="item w-25 item4 mr-3">
+
+                    <img src="contaDigital.png" width="30px" alt="iconeEntregaRapida">
+
+                    <h5 class="font-weight-bold">Conta digital e crédito </h5>
+
+                    <p class="text-secondary">
+
+                        Serviço bancário para recebimento semanal
+                        dos repasses e que também tem crédito com taxtas facilitadas.
+
+
+                    </p>
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="text-center">
+
+
+                <button class="btn btn-danger btn-lg font-weight-bold ">Cadastrar minha loja no iFood</button>
+
+            </div>
+
+
+        </div> <!-- fim container-->
+
+    </section> <!-- fim vantagens-->
+
+
+
+    <section class="mt-5 bg-danger pb-5"> <!-- inicio seçao planos-->
+
+        <h5 class="font-weight-bold text-light text-center mt-3 tituloPlanos p-3">Conheça nossos planos</h5>
+
+
+        <div class="d-flex  justify-content-center  ">
+
+            <div class="item itens mr-5 p-4 bg-light ">
+                <img src="iconeBasico.png" width="30px" alt="iconeBasico"> <span
+                    class="font-weight-bold">Básico</span>
+                <a href="#" class="text-danger">Ver detalhes </a>
+
+                <p class="mt-3">12%</p>
+                <p class="text-secondary">Comissão sobre pedidos delivery </p>
+
+                <p>3.2%</p>
+                <p class="text-secondary">Taxa para pedido pagos via iFood </p>
+
+                <p class="numeroRiscado">R$ 110,00/Mês</p> <span class="text-success"> 1 mês grátis</span>
+
+                <p class="text-secondary">Mensalidade para faturamento <br> acima de R$ 1.800/mês </p>
+
+                <hr>
+
+                <p><img src="verifica.png" width="30px" alt="verifica"> Sua loja no app do iFood </p>
+                <p><img src="verifica.png" width="30px" alt="verifica"> Entrega feita pela sua loja </p>
+                <p><img src="verifica.png" width="30px" alt="verifica"> Gestor de Pedidos</p>
+                <p><img src="verifica.png" width="30px" alt="verifica"> Ferramentas de marketing</p>
+
+
+            </div>
+
+
+            <div class="item itens mr-5  p-3 bg-light ">
+                <img src="capacete-de-corrida.png" width="30px" alt="iconeBasico"> <span
+                    class="font-weight-bold">Entrega</span>
+                <a href="#" class="text-danger">Ver detalhes </a>
+
+                <p class="mt-3">23%</p>
+                <p class="text-secondary">Comissão sobre pedidos delivery </p>
+
+                <p>3.2%</p>
+                <p class="text-secondary">Taxa para pedido pagos via iFood </p>
+
+                <p class="numeroRiscado">R$ 150,00/Mês</p> <span class="text-success"> 1 mês grátis</span>
+
+                <p class="text-secondary">Mensalidade para faturamento <br> acima de R$ 1.800/mês </p>
+
+                <hr>
+
+                <p><img src="verifica.png" width="30px" alt="verifica"> Tudo do plano Básico </p>
+                <p><img src="verifica.png" width="30px" alt="verifica"> Entrega com parceiros iFood </p>
+                <p><img src="verifica.png" width="30px" alt="verifica"> Rastreio de entrega em tempo real</p>
+                <p><img src="verifica.png" width="30px" alt="verifica"> Tecnologia para gestão de tempo de
+                    preparo</p>
+                <p><img src="verifica.png" width="30px" alt="verifica">Atendimento iFood até a entrega</p>
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </section> <!-- fim seção planos-->
+
+
+
+    <section> <!--secao  lojas-->
+
+        <div class="container"> <!-- inicio container-->
+
+            <h5 class="p-3 font-weight-bold tituloLoja text-center">Como abrir uma loja no iFood</h5>
+
+            <div class="row">
+
+
+
+
+
+                <div class="col-md-4 text-center"> <!-- incio CNPJ-->
+
+                    <img src="iconeCnpj.png" width="100px" alt="iconeCnpj">
+
+                    <h5 class="font-weight-bold mt-2">Crie uma conta e cadastre sua loja <br> com CNPJ </h5>
+                    <p class="text-secondary">Para isso, vamos precisar do seu nome completo,e-mail e celular. <br>
+
+                        Pra sua loja tenha em mãos <span class="text-secondary font-weight-bold"> CNPJ</span>, CPF e RG
+                        do titular.
+
+                    </p>
+                </div> <!-- fim CNPJ- -->
+
+
+                <div class="col-md-4 text-center"> <!-- inicio contrato-->
+
+                    <img src="contrato.png" width="100px" alt="iconeContrato">
+
+                    <h5 class="font-weight-bold mt-2">Escolha um plano e assine o contrato </h5>
+                    <p class="text-secondary">
+                        Escolha um plano disponivel. Vamos então validar suas informações e em <br>
+                        poucos minutos vocè recebe o contrato pra assinar
+
+
+                    </p>
+
+
+
+                </div> <!-- fim contrato-->
+
+                <div class="col-md-4 text-center"><!-- incio configuracaoLoja-->
+
+                    <img src="configuracaoLoja.png" width="100px" alt="iconeConfiguracaoLoja">
+
+                    <h5 class="font-weight-bold mt-2">Configure sua loja e tá pronto pra começar no iFood! </h5>
+                    <p class="text-secondary">
+                        Preencha conta bancária, cardápio e afins, e estará tudo pronto para ativar<br>
+                        sua loja e começar a receber pedidos
+
+                    </p>
+
+
+
+                </div> <!-- fim configuracaoLoja-->
+
+
+            </div>
+
+
+        </div> <!-- fim container-->
+
+
+
+
+    </section> <!-- fim lojas-->
+
+
+
+    <section class="mt-5 bg-danger pb-5"> <!-- carrosel-->
+
+        <div class="container"> <!-- inicio container-->
+
+            <h5 class="font-weight-bold p-3  m-4 text-center text-light">O que nossos parceiros estão falando sobre
+                vender com iFood
+            </h5>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active"> <!-- primeiro item-->
+
+                        <div class="row text-center">
+
+                            <div class="col-md-4"> <!-- coluna 1-->
+
+                                <div class="card"> <!-- incio card-->
+
+                                    <div class="card-title titulo1Card">
+                                        <img src="empressario2.jpg" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="body">
+
+                                        <span class=" card-text font-weight-bold"> "O iFood nos ajudou a triplicar a
+                                            <br>
+                                            quantidade de clientes
+                                        </span>
+
+                                        <p class="card-text  p-4">
+
+
+                                            As estrategias do iFood ajudaram a <br>
+                                            Pizza Prime a crescer e alcançar novos públicos.Hoje vendemos
+                                            2,5 milhões de pizzas por ano!"
+
+                                        <p class="pb-5">-Grabiel do <span class="font-weight-bold"> Pizza Prime </span>
+                                        </p>
+
+                                        </p>
+
+                                    </div>
+
+                                </div> <!-- fim card-->
+
+                            </div> <!-- coluna 1-->
+
+
+                            <div class="col-md-4"> <!-- coluna 2-->
+
+                                <div class="card"> <!-- incio card-->
+
+                                    <div class="card-title titulo1Card">
+                                        <img src="empressaria2.jpg" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="body">
+
+                                        <span class=" card-text font-weight-bold"> "OPerar no iFood, proporcionou
+                                            <br> um crescimento operacional e significativo em nossas lojas!
+
+                                        </span>
+
+                                        <p class="card-text p-4 ">
+
+
+                                            Hoje somos referencia em nossa cidade no ramo de doces e bolos,e <br>
+                                            muitos clientes chegam na nossa loja fisíca oriundo da nossa vitrine
+                                            no APP"
+
+                                        <p class="pb-5">-Nadia da <span class="font-weight-bold"> Sr.Grão
+                                                Cafeteria</span>
+                                        </p>
+
+                                        </p>
+
+                                    </div>
+
+                                </div> <!-- fim card-->
+
+
+
+
+
+                            </div> <!-- coluna 2-->
+
+
+                            <div class="col-md-4"> <!-- coluna 3-->
+
+                                <div class="card pb-5"> <!-- incio card-->
+
+                                    <div class="card-title titulo1Card">
+                                        <img src="cozinheira2.jpg" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="body">
+
+                                        <span class=" card-text font-weight-bold"> "O iFood ajudou meu negócio a <br>
+                                            crescer significamente.
+
+                                        </span>
+
+                                        <p class="card-text pb-5  mb-5">
+
+
+                                            Eu uso muito o Entrega Fácil e a mioria dos clientes agradece<br>
+                                            porque o pedido chega muito rápido, é um processo bastante ágil"
+
+                                        <p class="">-Barbara dos <span class="font-weight-bold"> Caldos da Bah</span>
+                                        </p>
+
+                                        </p>
+
+                                    </div>
+
+                                </div> <!-- fim card-->
+
+
+
+                            </div> <!-- coluna 3-->
+
+                        </div>
+
+                    </div> <!-- fim primeiro item-->
+
+                    <div class="carousel-item"> <!-- segundo item-->
+
+
+                        <div class="row text-center">
+
+                            <div class="col-md-4 "> <!-- coluna 1-->
+
+                                <div class="card p-4"> <!-- incio card-->
+
+                                    <div class="card-title titulo1Card ">
+                                        <img src="vendedor.jpg" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="body p-3">
+
+                                        <span class=" card-text font-weight-bold "> "Vender no iFood fez aumentar o
+                                            volume
+                                            de pedidos diarios de 20 a 110.
+                                            <br>
+
+                                        </span>
+
+                                        <p class="card-text mt-3  ">
+
+
+                                            multiplicaram meus pedidos por mais de 5 vezes<br>
+                                            e estou pronto para expandir!""
+
+                                        <p class="">-Marley do <span class="font-weight-bold"> The Rooster </span>
+                                        </p>
+
+                                        </p>
+
+                                    </div>
+
+                                </div> <!-- fim card-->
+
+                            </div> <!-- coluna 1-->
+
+
+
+                            <div class="col-md-4 "> <!-- coluna 2-->
+
+                                <div class="card p-4"> <!-- incio card-->
+
+                                    <div class="card-title titulo1Card p-3">
+                                        <img src="vendedorDePizza2.jpg" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="body ">
+
+                                        <span class=" card-text font-weight-bold "> "O iFood mudou o meu negócio.
+                                            Passei de uma venda média de 20 pizzas por dia para 70.
+
+
+                                        </span>
+
+                                        <p class="card-text mt-3 ">
+
+
+                                            Hoje conheço mais nosso público-alvo. E recebo orientações de um
+                                            consultoriaiFood<br>
+                                            que me ajuda, por exemplo, a definir quais promoções participar"
+
+
+                                        <p class="">-Roberto da <span class="font-weight-bold"> Macis Pizzaria Goumert
+                                            </span>
+                                        </p>
+
+                                        </p>
+
+                                    </div>
+
+                                </div> <!-- fim card-->
+
+                            </div> <!-- coluna 2-->
+
+
+
+
+                            <div class="col-md-4 "> <!-- coluna 2-->
+
+                                <div class="card p-4"> <!-- incio card-->
+
+                                    <div class="card-title titulo1Card p-3">
+                                        <img src="vendedor5.jpg" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="body ">
+
+                                        <span class=" card-text font-weight-bold "> "A virada de chave veio mesmo quando
+                                            introduzi
+                                            o sistema delivery do iFood que abriu as portas
+
+
+                                        </span>
+
+                                        <p class="card-text mt-3 ">
+
+
+                                            para uma maior visibilidade e potencial de vendas aumentando significamente
+                                            nosso faturamneto."
+
+
+                                        <p class="">-Thiago do <span class="font-weight-bold"> Roni 46
+                                            </span>
+                                        </p>
+
+                                        </p>
+
+                                    </div>
+
+                                </div> <!-- fim card-->
+
+                            </div> <!-- coluna 2-->
+
+
+
+                        </div>
+
+
+
+                    </div> <!-- fim segundo item-->
+
+                    <div class="carousel-item"> <!-- terceiro item-->
+
+                        <div class="row text-center">
+
+                            <div class="col-md-4"> <!-- coluna 1-->
+
+                                <div class="card"> <!-- incio card-->
+
+                                    <div class="card-title titulo1Card">
+                                        <img src="vendedoraItem3.jpg" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="body">
+
+                                        <span class=" card-text font-weight-bold"> "O iFood mudou minha vida.<br>
+                                            Menos de 2 anos na plataforma consegui largar meu emprego CLT e focar
+                                            na minha loja.
+                                        </span>
+
+                                        <p class="card-text  p-4">
+                                            Um mês depois faturamos + de 20k reais em vendas!
+                                            Nos tornamos Super Restaurante desde então não perdemos
+                                            mais este titulo."
+
+
+                                        <p class="pb-5">-Keid do <span class="font-weight-bold"> Tapioca Reis Gourmet
+                                            </span>
+                                        </p>
+
+                                        </p>
+
+                                    </div>
+
+                                </div> <!-- fim card-->
+
+                            </div> <!-- coluna 1-->
+
+
+                            <div class="col-md-4"> <!-- coluna 2-->
+
+                                <div class="card"> <!-- incio card-->
+
+                                    <div class="card-title titulo1Card">
+                                        <img src="hamburgueria.jpg" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="body">
+
+                                        <span class=" card-text font-weight-bold"> "O iFood mudou meu negócio<br>
+                                            muitos clientes passaram a visitar minha hamburgueria.
+                                            E minhas vendas só aumentaram.
+                                        </span>
+
+                                        <p class="card-text  p-4">
+                                            Vendemos mais de 90 hamburgues por mês graças a nossa parceira com o iFood."
+
+
+                                        <p class="pb-5">-Gustavo da <span class="font-weight-bold"> HamburguerMania
+                                            </span>
+                                        </p>
+
+                                        </p>
+
+                                    </div>
+
+                                </div> <!-- fim card-->
+
+                            </div> <!-- coluna 2-->
+
+
+
+
+
+                            <div class="col-md-4"> <!-- coluna 3-->
+
+                                <div class="card"> <!-- incio card-->
+
+                                    <div class="card-title titulo1Card">
+                                        <img src="vendedoraDePastel.jpg" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="body">
+
+                                        <span class=" card-text font-weight-bold"> "Com a ajuda do iFood
+                                            pude levar o hobbie de cozinhar para frente e ainda lucrar com isso.
+
+                                        </span>
+
+                                        <p class="card-text  p-4">
+                                            Com isso pude viver com isso, ganhando mais do que com meu emprego anterior.
+
+
+
+
+                                        <p class="pb-5">-Ana do <span class="font-weight-bold"> SeuPastel
+                                            </span>
+                                        </p>
+
+                                        </p>
+
+                                    </div>
+
+                                </div> <!-- fim card-->
+
+                            </div> <!-- coluna 3-->
+
+
+
+
+
+                        </div>
+
+
+                    </div> <!-- fim terceiro item-->
+
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <!-- incio controles-->
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a> <!-- fim controles-->
+            </div>
+
+
+
+
+
+        </div> <!-- fim container-->
+
+    </section> <!-- fim carrosel-->
+
+
+
+    <footer class="mt-5 footer pt-5">
+
+
+        <div class="container mt-5"> <!-- incio container-->
+
+            <div class="row text-center" id="rodape">
+
+                <div class="col-md-3">
+                    <p class="font-weight-bold">iFood</p>
+                    <p><a href="">Portal do parceiro </a></p>
+                    <p><a href="">Carreiras no iFood</a></p>
+                    <p><a href="">Blogs para Parceiros</a></p>
+
+
+
+
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <p class="font-weight-bold">Descubra</p>
+                    <p><a href="">Cadastre seu restaurante </a></p>
+                    <p><a href="">Cadastre seu mercado</a></p>
+
+
+
+                </div>
+
+                <div class="col-md-3">
+                    <p class="font-weight-bold">Saiba mais</p>
+                    <p><a href="">Privacidade </a></p>
+                    <p><a href="">Código de conduta</a></p>
+
+                </div>
+
+            </div>
+
+
+            <div class="text-center mt-3">
+                <p class="text-secondary">© Copyright 2025 - iFood - Todos os direitos reservados iFood com Agência de
+                    Restaurantes Online S.A.
+                </p>
+
+                <p class="text-secondary">CNPJ 14.380.200/0001-21 / Avenida dos Autonomistas, nº 1496, Vila Yara, Osasco/SP - CEP 06.020-902
+                </p>
+
+
+            </div>
+
+        </div> <!-- fim container-->
+
+
+    </footer>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+
+
+</html>
