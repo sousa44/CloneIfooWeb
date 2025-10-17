@@ -20,7 +20,7 @@ https://sousa44.github.io/CloneIfooWeb/
 
 Clone o repositório:
 
-git clone https://github.com/sousa44/clone-ifood.git
+
 
 
 Acesse a pasta do projeto:
@@ -61,6 +61,7 @@ Desenvolvimento de páginas responsivas
 📌 Status do projeto
 
 ✅ Finalizado (ou escreva "em desenvolvimento" se ainda estiver trabalhando nele)
+
 
 
 
